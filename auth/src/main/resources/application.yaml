@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: auth
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${NAME_CONTAINER_DB:localhost}:5432/${POSTGRES_DB:master_data}
+    username: ${POSTGRES_USER:admin}
+    password: ${POSTGRES_PASSWORD:Qwerty123$}
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 20_000
+      initialization-fail-timeout: -1
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    org.springframework.security: DEBUG
