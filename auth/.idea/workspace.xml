@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1de67464-1a3e-4a4a-b8d1-7ff2f3897e35" name="Changes" comment="init project">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/constant/Supportive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/controller/PublicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/controller/UserInformationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/exception/ErrorCreateUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/exception/ErrorCreateUserInformationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/exception/ErrorDeleteUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/exception/ErrorUpdateUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/dto/UserWithListRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/dto/UserWithRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/entity/AuthorityUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/entity/UserInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/request/UserCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/request/UserInformationUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/request/UserUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/response/UserDetailsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/security/PrincipalImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/model/security/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/repository/AuthorityUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/repository/nativeQuery/RoleRepositoryNativeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/repository/nativeQuery/UserRepositoryNativeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/service/security/AuthenticationProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/service/security/UserDetailsManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/security/auth/service/utils/FieldsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cherkashin-de&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cherkashin-de/spring-security-basic-auth-example&quot;,
+    &quot;accountId&quot;: &quot;952d5710-79f9-488c-88a5-eb7ac9583431&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="341h37JQt9XmYzx1SzrB2yb9lkC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [clean,package,-DskipTests].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [dependency:list,|,grep,spring].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [dependency:list].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [dependency:purge-local-repository...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [dependency:tree,|,Select-String...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [dependency:tree,|,grep,spring-web].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [dependency:tree,|,grep,spring].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth [dependency:tree].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn dependency:purge-local-repository mvn clean install" />
+      <command value="mvn dependency:list | grep spring" />
+      <command value="mvn clean install" />
+      <command value="mvn dependency:tree | grep spring-web" />
+      <command value="mvn dependency:tree | grep spring" />
+      <command value="mvn dependency:tree | Select-String spring" />
+      <command value="mvn dependency:tree " />
+      <command value="mvn dependency:list " />
+      <command value="mvn clean package" />
+      <command value="clean package -DskipTests" />
+      <command value="mvn clean package -DskipTests" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.security.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1de67464-1a3e-4a4a-b8d1-7ff2f3897e35" name="Changes" comment="init project" />
+      <created>1760386783180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760386783180</updated>
+      <workItem from="1760386784586" duration="16959000" />
+      <workItem from="1763062023466" duration="3506000" />
+      <workItem from="1763065543658" duration="113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.ClassNotFoundException" memberName="detailMessage" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
