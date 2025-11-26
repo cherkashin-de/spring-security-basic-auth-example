@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: auth
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${NAME_CONTAINER_DB:localhost}:5432/${POSTGRES_DB:master_data}
+    username: ${POSTGRES_USER:admin}
+    password: ${POSTGRES_PASSWORD:Qwerty123$}
+    hikari:
+      maximum-pool-size: 10        # максимум 10 соединений
+      connection-timeout: 20000    # ожидание свободного соединения 20 сек
+      initialization-fail-timeout: -1  # не падать при старте, пробовать снова
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    loggers: slf4j
+    table: flyway_schema_history
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+    logging:
+      level:
+        org:
+          springframework:
+            security:
+              config:
+                annotation:
+                  authentication:
+                    configuration:
+                      InitializeUserDetailsBeanManagerConfigurer: ERROR
